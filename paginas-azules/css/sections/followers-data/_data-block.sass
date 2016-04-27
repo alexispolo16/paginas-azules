@@ -1,0 +1,73 @@
+@import "../../base/variables"
+
+
+.followers-data .data-block
+  margin: 10px 0
+  background: #FFFFFF
+  box-shadow: 0px 1px 3px 0px #29374C
+  border-radius: 1px
+  @media ($bp-larger-than-desktop)
+    float: left
+    width: 100%
+
+
+
+  header
+    color: white
+    padding: 10px 25px 9px
+    box-sizing: border-box
+    @media ($bp-larger-than-desktop)
+      float: left
+      width: 220px
+
+
+    img
+      width: 25px
+      height: auto
+      vertical-align: middle
+      margin-right: 10px
+      @media ($bp-larger-than-desktop)
+        display: block
+        margin: 0 auto
+
+    h3
+      display: inline
+      margin: 0 0
+
+
+
+
+  .social-network
+    padding: 20px 25px 15px
+    @media ($bp-larger-than-desktop)
+      padding: 0px
+      float: left
+
+
+
+  .social-network:first-of-type
+    padding-top: 20px
+    @media ($bp-larger-than-desktop)
+      padding-top: 0px
+
+  .social-network:last-of-type
+    padding-bottom: 20px
+    @media ($bp-larger-than-desktop)
+    padding-top: 0px
+
+
+
+
+.followers-data .data-block:nth-child(even)
+  header
+    background: $color-blue
+    border-bottom: 4px solid $color-sky-blue
+
+
+
+.followers-data .data-block:nth-child(odd)
+  header
+    background: $color-sky-blue
+    border-bottom: 4px solid $color-blue
+
+
